@@ -26,7 +26,121 @@
 
 ---
 
-# [SYSTEM OVERVIEW & TECHNICAL SPECIFICATIONS]
+<a id="table-of-contents" name="table-of-contents"></a>
+# TABLE OF CONTENTS
+
+* [**SECTION 1: SYSTEM OVERVIEW & TECHNICAL SPECIFICATIONS**](#section-1)
+* [**SECTION 2: USER AUTHENTICATION & ACCESS CONTROL (Figures 1–7)**](#section-2)
+  * [Figure 1. System Landing Page Interface and Institutional Branding](#fig-1)
+  * [Figure 2. Integrated Authentication Modal – User Sign-In Interface](#fig-2)
+  * [Figure 3. Integrated Authentication Modal – Account Registration View](#fig-3)
+  * [Figure 4. Integrated Authentication Modal – 6-Digit Phone OTP Verification Screen](#fig-4)
+  * [Figure 5. Mandatory First-Login Password Change Modal](#fig-5)
+  * [Figure 6. Integrated Authentication Modal – Password Recovery Interface](#fig-6)
+  * [Figure 7. Secure Sign-Out Confirmation Modal](#fig-7)
+* [**SECTION 3: PUBLIC LANDING PAGE & GUEST PORTAL (Figures 8–14)**](#section-3)
+  * [Figure 8. Public Hero Section with Real-Time Admission Gating Status](#fig-8)
+  * [Figure 9. Public School Announcements Section on Landing Page](#fig-9)
+  * [Figure 10. Announcement Detail Lightbox Modal](#fig-10)
+  * [Figure 11. All Announcements Archive Lightbox Modal](#fig-11)
+  * [Figure 12. Academic Programs and Curriculum Offerings Section](#fig-12)
+  * [Figure 13. Admission Requirements Checklist by Grade Level](#fig-13)
+  * [Figure 14. VPES Data Privacy Policy Interface](#fig-14)
+* [**SECTION 4: ONLINE ADMISSIONS & DEPED BEEF APPLICANT PORTAL (Figures 15–27)**](#section-4)
+  * [Figure 15. Student Type Selection Modal (New Applicant vs. Existing Student)](#fig-15)
+  * [Figure 16. Student Type Confirmation Dialog](#fig-16)
+  * [Figure 17. LRN Verification and Account Linking Modal](#fig-17)
+  * [Figure 18. Online Admission Form – Step 1: School Information & Grade Level Selection](#fig-18)
+  * [Figure 19. Online Admission Form – Step 2: Student Demographic & BEEF Information](#fig-19)
+  * [Figure 20. Online Admission Form – Step 3: PSGC Cascading Geographic Residential Address](#fig-20)
+  * [Figure 21. Online Admission Form – Step 4: Parent and Legal Guardian Profiling](#fig-21)
+  * [Figure 22. Online Admission Form – Step 5: Special Needs Education (SNEd) & Disability Profiling](#fig-22)
+  * [Figure 23. Online Admission Form – Step 6: Returning Learner (Balik-Aral) and Transferee History](#fig-23)
+  * [Figure 24. Online Admission Form – Step 7: Learning Modality Preferences](#fig-24)
+  * [Figure 25. Document Upload Interface with Grade-Specific Requirement Slots](#fig-25)
+  * [Figure 26. Application Review, Data Privacy Agreement, and DepEd Certification](#fig-26)
+  * [Figure 27. Application Submission Success Dialog with Tracking Code Generation](#fig-27)
+* [**SECTION 5: DOCUMENT VERIFICATION & APPOINTMENT SCHEDULER (Figures 28–35)**](#section-5)
+  * [Figure 28. Applicant Dashboard with 5-Stage Admission Progress Timeline](#fig-28)
+  * [Figure 29. Applicant Application Details Tab with BEEF Data Viewer](#fig-29)
+  * [Figure 30. Applicant Document Submission Management & Re-upload Interface](#fig-30)
+  * [Figure 31. Document Full-Screen Review Lightbox Modal](#fig-31)
+  * [Figure 32. Document File Replacement Modal](#fig-32)
+  * [Figure 33. On-Site Physical Document Submission Date Selector Interface](#fig-33)
+  * [Figure 34. Appointment Slot Booking Confirmation Modal](#fig-34)
+  * [Figure 35. Official Document Verification Appointment Slip with QR Code](#fig-35)
+* [**SECTION 6: ENROLLED STUDENT & PARENT PORTAL (Figures 36–43)**](#section-6)
+  * [Figure 36. Enrolled Student Dashboard Home and Advisory Section Card](#fig-36)
+  * [Figure 37. Enrolled Student Weekly Interactive Timetable / Class Schedule](#fig-37)
+  * [Figure 38. Enrolled Student Quarterly Academic Grades Display](#fig-38)
+  * [Figure 39. Enrolled Student MAPEH Composite Grade and Component Breakdown Drawer](#fig-39)
+  * [Figure 40. Enrolled Student Historical School Year Grade Archive Browser](#fig-40)
+  * [Figure 41. Enrolled Student Master Profile View](#fig-41)
+  * [Figure 42. Continuing Student Re-Enrollment Confirmation Tab](#fig-42)
+  * [Figure 43. Alumni / Graduated Student Interface and Permanent Record Access](#fig-43)
+* [**SECTION 7: TEACHER & CLASS ADVISER PORTAL (Figures 44–54)**](#section-7)
+  * [Figure 44. Teacher Dashboard Overview, Advisory Class Summary, and Teaching Loads](#fig-44)
+  * [Figure 45. Teacher Right-Sidebar Interactive Calendar and Today's Class Schedule Drawer](#fig-45)
+  * [Figure 46. Teacher Advisory Student Roster Directory](#fig-46)
+  * [Figure 47. Teacher Student Profile Inspection Modal](#fig-47)
+  * [Figure 48. Teacher Quarterly Grading Sheet Spreadsheet Grid](#fig-48)
+  * [Figure 49. Teacher MAPEH Component Breakdown and Sub-Grading Modal](#fig-49)
+  * [Figure 50. Teacher Individual Weekly Teaching Schedule and Print Layout](#fig-50)
+  * [Figure 51. Teacher DepEd School Forms Hub (SF1 to SF8 Generation Cards)](#fig-51)
+  * [Figure 52. Teacher SF2 Daily Attendance Month and Year Selection Modal](#fig-52)
+  * [Figure 53. Teacher SF9 Progress Report Card Workspace & Batch ZIP Download Interface](#fig-53)
+  * [Figure 54. Teacher Account Profile and Password Settings](#fig-54)
+* [**SECTION 8: ADMINISTRATOR & REGISTRAR OPERATIONS (Figures 55–87)**](#section-8)
+  * [**8.1 Executive Dashboard & KPI Analytics (Figures 55–58)**](#sec-8-1)
+    * [Figure 55. Administrator Executive Dashboard with Real-Time KPIs and Daily Appointment Stream](#fig-55)
+    * [Figure 56. Administrator Interactive Analytics Graph (Bar Graph / Line Trend Toggle)](#fig-56)
+    * [Figure 57. Administrator Class Sections & Capacity Panel with Unassigned Students Alert](#fig-57)
+    * [Figure 58. Administrator Operations Hub with Priority Actions and Live Audit Stream](#fig-58)
+  * [**8.2 Application Lifecycle & Intake Evaluation (Figures 59–62)**](#sec-8-2)
+    * [Figure 59. Administrator Applications Management Hub – New Applications Tab](#fig-59)
+    * [Figure 60. Administrator Comprehensive Application Dossier Evaluation Modal](#fig-60)
+    * [Figure 61. Administrator Continuing Student Re-Enrollment Processing Queue](#fig-61)
+    * [Figure 62. Administrator Student Year-End Promotion and Grade 6 Graduation Workspace](#fig-62)
+  * [**8.3 Document Repository & Verification (Figures 63–64)**](#sec-8-3)
+    * [Figure 63. Administrator Master Document Repository in Table View and Dossier View](#fig-63)
+    * [Figure 64. Administrator Enhanced Document Preview and Verification Lightbox](#fig-64)
+  * [**8.4 Appointment Slots & Intake Capacity (Figures 65–66)**](#sec-8-4)
+    * [Figure 65. Administrator Document Verification Slot Management and Attendee Roster](#fig-65)
+    * [Figure 66. Administrator Bulk Slot Generation Modal](#fig-66)
+  * [**8.5 Student Master Database & LRN Updates (Figures 67–69)**](#sec-8-5)
+    * [Figure 67. Administrator Master Student Database and Filtering Controls](#fig-67)
+    * [Figure 68. Administrator Section Assignment and Drag-and-Drop Management Interface](#fig-68)
+    * [Figure 69. Administrator LRN Update and Account Unlinking Modals](#fig-69)
+  * [**8.6 Section Management & Timetable Scheduling (Figures 70–75)**](#sec-8-6)
+    * [Figure 70. Administrator Section Management and Class Adviser Assignment Interface](#fig-70)
+    * [Figure 71. Administrator DepEd Elementary Subject Curriculum Management](#fig-71)
+    * [Figure 72. Administrator Faculty and Teacher Management Directory with Cluster Filters](#fig-72)
+    * [Figure 73. Administrator Faculty Master Timetable Inspection Modal](#fig-73)
+    * [Figure 74. Administrator Timetable Builder – Master Class Schedules Overview](#fig-74)
+    * [Figure 75. Administrator Timetable Session Creator with Automated Conflict Detection Engine](#fig-75)
+  * [**8.7 User Administration & Security Audit Logs (Figures 76–80)**](#sec-8-7)
+    * [Figure 76. Administrator User Account Management and Staff Creation Modal](#fig-76)
+    * [Figure 77. Administrator User Role Modification Dialog with Demotion Safeguards](#fig-77)
+    * [Figure 78. Administrator Announcements Management Hub and Category Tagging](#fig-78)
+    * [Figure 79. Administrator Facebook Synced Post Review and Approval Two-Column Lightbox](#fig-79)
+    * [Figure 80. Administrator System Audit and Activity Logs Interface](#fig-80)
+  * [**8.8 School Year Management & System CMS (Figures 81–84)**](#sec-8-8)
+    * [Figure 81. Administrator School Year Management and Activation Readiness Audit Modal](#fig-81)
+    * [Figure 82. Administrator Independent Admission Gating Switches (Early Reg, Enrollment, Re-Enrollment)](#fig-82)
+    * [Figure 83. Administrator School Institutional Profile and DepEd Identifiers Configuration](#fig-83)
+    * [Figure 84. Administrator Landing Page Content Management System (CMS) with Live Preview](#fig-84)
+  * [**8.9 School Forms & Official Reports Center (Figure 85)**](#sec-8-9)
+    * [Figure 85. Administrator School Forms & Official Reports Center](#fig-85)
+  * [**8.10 Administrative Utilities & Certificate Templates (Figures 86–87)**](#sec-8-10)
+    * [Figure 86. Administrator Bulk Student CSV Import Interface](#fig-86)
+    * [Figure 87. Official List of Enrollees Certificate-Style Print Preview Template](#fig-87)
+* [**SECTION 9: OFFICIAL DEPED SCHOOL FORMS (SF) MASTER MATRIX**](#section-9)
+* [**SECTION 10: SYSTEM TROUBLESHOOTING & FREQUENTLY ASKED QUESTIONS (FAQ)**](#section-10)
+
+---
+
+<a id="section-1" name="section-1"></a>
+# SECTION 1: SYSTEM OVERVIEW & TECHNICAL SPECIFICATIONS
 
 ### SYSTEM IDENTIFICATION & OVERVIEW
 The **Vinzons Pilot Elementary School – Student Information and Management System (VPES-SIMS)** is an enterprise web-based school administration platform engineered for Vinzons Pilot Elementary School (DepEd School ID: 112937) in Vinzons, Camarines Norte. 
@@ -42,38 +156,19 @@ Developed as a capstone research project under the **Department of Computer Stud
   - Active Internet Connection (minimum 2 Mbps recommended).
   - Built-in PDF reader for previewing and downloading official DepEd reports.
 
----
-
-# TABLE OF CONTENTS
-
-* **SECTION 1: SYSTEM OVERVIEW & ARCHITECTURE**
-* **SECTION 2: USER AUTHENTICATION & ACCESS CONTROL (Figures 1–7)**
-* **SECTION 3: PUBLIC LANDING PAGE & GUEST PORTAL (Figures 8–14)**
-* **SECTION 4: ONLINE ADMISSIONS & DEPED BEEF APPLICANT PORTAL (Figures 15–27)**
-* **SECTION 5: DOCUMENT VERIFICATION & APPOINTMENT SCHEDULER (Figures 28–35)**
-* **SECTION 6: ENROLLED STUDENT & PARENT PORTAL (Figures 36–43)**
-* **SECTION 7: TEACHER & CLASS ADVISER PORTAL (Figures 44–54)**
-* **SECTION 8: ADMINISTRATOR & REGISTRAR OPERATIONS (Figures 55–87)**
-  * 8.1 Executive Dashboard & KPI Analytics (Figures 55–58)
-  * 8.2 Application Lifecycle & Intake Evaluation (Figures 59–62)
-  * 8.3 Document Repository & Verification (Figures 63–64)
-  * 8.4 Appointment Slots & Intake Capacity (Figures 65–66)
-  * 8.5 Student Master Database & LRN Updates (Figures 67–69)
-  * 8.6 Section Management & Timetable Scheduling (Figures 70–75)
-  * 8.7 User Administration & Security Audit Logs (Figures 76–80)
-  * 8.8 School Year Management & System CMS (Figures 81–84)
-  * 8.9 School Forms & Official Reports Center (Figure 85)
-  * 8.10 Administrative Utilities & Certificate Templates (Figures 86–87)
-* **SECTION 9: OFFICIAL DEPED SCHOOL FORMS (SF) MATRIX**
-* **SECTION 10: TROUBLESHOOTING & FREQUENTLY ASKED QUESTIONS (FAQ)**
+[↑ Back to Table of Contents](#table-of-contents)
 
 ---
 
+<a id="section-2" name="section-2"></a>
+# SECTION 2: USER AUTHENTICATION & ACCESS CONTROL (FIGURES 1–7)
+
+
 ---
 
-### SYSTEM LANDING PAGE INTERFACE AND INSTITUTIONAL BRANDING
+<a id="fig-1" name="fig-1"></a>
+### Figure 1. System Landing Page Interface and Institutional Branding
 **Header:** SYSTEM ACCESS & BRANDING  
-**Figure 1. System Landing Page Interface and Institutional Branding**  
 > **Figure Description:** Open index.html in a desktop browser. Capture the full viewport showing the top header bar with VPES logo and DepEd School ID (112937), the main navigation menu, the hero headline with school motto, the active admission status ribbon, and the primary "Enroll Now" and "Login" action buttons.
 
 **Interface Controls & Elements:**
@@ -85,11 +180,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Header "Login" Action Button** – Triggers the integrated authentication modal (#authModal) without leaving the landing page.
 6. **Latest Announcements Feed** – Live display cards of urgent school bulletins, advisories, and Facebook-synced posts.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### INTEGRATED AUTHENTICATION MODAL – USER SIGN-IN INTERFACE
+<a id="fig-2" name="fig-2"></a>
+### Figure 2. Integrated Authentication Modal – User Sign-In Interface
 **Header:** USER AUTHENTICATION & SECURITY  
-**Figure 2. Integrated Authentication Modal – User Sign-In Interface**  
 > **Figure Description:** On index.html, click the "Login" button in the top navigation bar to launch #authModal in default Sign-In view. Capture the modal showing the "Welcome Back!" greeting, Email/Phone input field, password input with unmask eye icon, "Sign In to VPES" button, "Forgot Password?" link, and "Register" tab switch.
 
 **Interface Controls & Elements:**
@@ -101,11 +198,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **"Forgot Password?" Link (#modal-forgotPasswordLink)** – Switches modal to password recovery view (#modal-recoveryForm).
 6. **"Register" Switch Tab (#modal-headerRegisterBtn)** – Expands modal into new applicant account registration view (#modal-signupForm).
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### INTEGRATED AUTHENTICATION MODAL – ACCOUNT REGISTRATION VIEW
+<a id="fig-3" name="fig-3"></a>
+### Figure 3. Integrated Authentication Modal – Account Registration View
 **Header:** USER AUTHENTICATION & SECURITY  
-**Figure 3. Integrated Authentication Modal – Account Registration View**  
 > **Figure Description:** Inside #authModal on index.html, click the "Register" tab to display #modal-signupForm. Capture the registration view showing First Name, Middle Name, Last Name, Email, Mobile Phone Number, Password, Confirm Password fields, and the "Create Account" button.
 
 **Interface Controls & Elements:**
@@ -118,11 +217,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 6. **Password & Confirm Fields (#modal-signupPassword, #modal-signupConfirmPassword)** – Set secure password (min. 8 characters with numbers and symbols).
 7. **"Create Account" Button (#modal-submitRegisterBtn)** – Validates inputs and triggers the 6-digit SMS OTP verification sequence.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### INTEGRATED AUTHENTICATION MODAL – 6-DIGIT PHONE OTP VERIFICATION SCREEN
+<a id="fig-4" name="fig-4"></a>
+### Figure 4. Integrated Authentication Modal – 6-Digit Phone OTP Verification Screen
 **Header:** USER AUTHENTICATION & SECURITY  
-**Figure 4. Integrated Authentication Modal – 6-Digit Phone OTP Verification Screen**  
 > **Figure Description:** Submit the registration form in #authModal to trigger the SMS OTP gateway. Capture the #modal-otpScreen showing the masked phone display (e.g., 09******890), the six sequential OTP digit input boxes, the 60-second countdown timer, and "Verify & Proceed" button.
 
 **Interface Controls & Elements:**
@@ -133,11 +234,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **"Verify & Proceed" Button (#modal-verifyOtpBtn)** – Authenticates the 6-digit token, provisions the user account, and signs in the user.
 5. **"Edit Phone Number" Action** – Returns to registration form if the mobile number was mistyped.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### MANDATORY FIRST-LOGIN PASSWORD CHANGE MODAL
+<a id="fig-5" name="fig-5"></a>
+### Figure 5. Mandatory First-Login Password Change Modal
 **Header:** USER AUTHENTICATION & SECURITY  
-**Figure 5. Mandatory First-Login Password Change Modal**  
 > **Figure Description:** Log in with an administrator-provisioned teacher or staff account that has must_change_password = 1. Capture the modal injected by JS/firstLoginPasswordModal.js showing the mandatory change alert, New Password input (#flmNewPassword), Confirm Password input (#flmConfirmPassword), password strength validation chips (#chip-len, #chip-upper, #chip-lower, #chip-num, #chip-match), and "Update Password & Continue" button (#flmSubmitBtn).
 
 **Interface Controls & Elements:**
@@ -148,11 +251,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Real-Time Validation Chips** – Dynamic badges: 8+ chars (#chip-len), Uppercase (#chip-upper), Lowercase (#chip-lower), Number (#chip-num), Passwords Match (#chip-match).
 5. **"Update Password & Continue" Button (#flmSubmitBtn)** – Updates password in Firebase Auth, clears must_change_password flag in MySQL, and opens portal dashboard.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### INTEGRATED AUTHENTICATION MODAL – PASSWORD RECOVERY INTERFACE
+<a id="fig-6" name="fig-6"></a>
+### Figure 6. Integrated Authentication Modal – Password Recovery Interface
 **Header:** USER AUTHENTICATION & SECURITY  
-**Figure 6. Integrated Authentication Modal – Password Recovery Interface**  
 > **Figure Description:** Inside #authModal on index.html, click "Forgot Password?" to transition to #modal-recoveryForm. Capture the recovery view showing the instructions banner, registered email input field, "Send Reset Link" action button, and "Back to Sign In" button.
 
 **Interface Controls & Elements:**
@@ -162,11 +267,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Send Reset Link" Button (#modal-sendResetBtn)** – Dispatches an official password recovery link via Hostinger SMTP / Firebase Auth.
 4. **"Back to Sign In" Button (#modal-backToLoginBtn)** – Returns modal view to the standard sign-in form.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### SECURE SIGN-OUT CONFIRMATION MODAL
+<a id="fig-7" name="fig-7"></a>
+### Figure 7. Secure Sign-Out Confirmation Modal
 **Header:** USER AUTHENTICATION & SECURITY  
-**Figure 7. Secure Sign-Out Confirmation Modal**  
 > **Figure Description:** On any authenticated dashboard (Admin, Teacher, or Student), click "Logout" in the sidebar or user menu to trigger JS/logoutModal.js. Capture the SweetAlert2 confirmation dialog showing the warning icon, "Are you sure you want to log out?" prompt, "Confirm Logout" button, and "Cancel" button.
 
 **Interface Controls & Elements:**
@@ -175,11 +282,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 2. **"Confirm Logout" Action Button** – Clears sessionStorage, revokes Firebase auth tokens, and safely redirects to index.html.
 3. **"Cancel" Action Button** – Dismisses dialog and maintains active portal session.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### PUBLIC HERO SECTION WITH REAL-TIME ADMISSION GATING STATUS
+<a id="section-3" name="section-3"></a>
+# SECTION 3: PUBLIC LANDING PAGE & GUEST PORTAL (FIGURES 8–14)
+
+
+---
+
+<a id="fig-8" name="fig-8"></a>
+### Figure 8. Public Hero Section with Real-Time Admission Gating Status
 **Header:** PUBLIC LANDING PAGE & GUEST PORTAL  
-**Figure 8. Public Hero Section with Real-Time Admission Gating Status**  
 > **Figure Description:** Open index.html and capture the hero section displaying the institutional background image, the primary headline, the dynamic enrollment status pill (#admissionGatingPill showing "Early Registration Open", "Regular Enrollment Active", or "Admissions Closed"), and the primary call-to-action button.
 
 **Interface Controls & Elements:**
@@ -189,11 +304,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Primary Enrollment CTA (#enrollBtn)** – Action button labeled "Enroll Now" when admissions are active, or "View Requirements" when closed.
 4. **Portal Login CTA (#loginBtn)** – Direct shortcut triggering the integrated authentication modal.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### PUBLIC SCHOOL ANNOUNCEMENTS SECTION ON LANDING PAGE
+<a id="fig-9" name="fig-9"></a>
+### Figure 9. Public School Announcements Section on Landing Page
 **Header:** PUBLIC LANDING PAGE & GUEST PORTAL  
-**Figure 9. Public School Announcements Section on Landing Page**  
 > **Figure Description:** Scroll to the Announcements section (#announcementsSection) on index.html. Capture the section showing the section title, the three latest published bulletin cards with thumbnail photos, category tags, timestamps, "Read More" buttons, and the "View All Announcements" button.
 
 **Interface Controls & Elements:**
@@ -204,11 +321,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **"Read More" Button** – Launches the full bulletin lightbox modal (#announcementModal).
 5. **"View All Announcements" Button (#viewAllAnnBtn)** – Opens the complete historical archive lightbox.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ANNOUNCEMENT DETAIL LIGHTBOX MODAL
+<a id="fig-10" name="fig-10"></a>
+### Figure 10. Announcement Detail Lightbox Modal
 **Header:** PUBLIC LANDING PAGE & GUEST PORTAL  
-**Figure 10. Announcement Detail Lightbox Modal**  
 > **Figure Description:** On index.html, click "Read More" on any announcement card to launch #announcementModal. Capture the modal displaying the headline, author role, date, full announcement text, and attached document image.
 
 **Interface Controls & Elements:**
@@ -219,11 +338,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Embedded Document Viewer** – High-resolution display of signed memoranda or advisory infographics.
 5. **Full Bulletin Body** – Formatted announcement text with paragraph spacing.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ALL ANNOUNCEMENTS ARCHIVE LIGHTBOX MODAL
+<a id="fig-11" name="fig-11"></a>
+### Figure 11. All Announcements Archive Lightbox Modal
 **Header:** PUBLIC LANDING PAGE & GUEST PORTAL  
-**Figure 11. All Announcements Archive Lightbox Modal**  
 > **Figure Description:** On index.html, click "View All Announcements" to launch #announcementsArchiveModal. Capture the modal showing the announcement search input, category filter pills, chronological archive cards, and close button.
 
 **Interface Controls & Elements:**
@@ -233,11 +354,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Chronological Archive Cards** – Scrollable catalog of all historical bulletins.
 4. **Close Archive Action** – Dismisses modal and returns to landing page view.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ACADEMIC PROGRAMS AND CURRICULUM OFFERINGS SECTION
+<a id="fig-12" name="fig-12"></a>
+### Figure 12. Academic Programs and Curriculum Offerings Section
 **Header:** PUBLIC LANDING PAGE & GUEST PORTAL  
-**Figure 12. Academic Programs and Curriculum Offerings Section**  
 > **Figure Description:** Scroll to #programsSection on index.html. Capture the curriculum offerings grid displaying cards for Kindergarten, Primary (Grades 1–3), Intermediate (Grades 4–6), Special Science Elementary School (SSES), and Special Needs Education (SNEd).
 
 **Interface Controls & Elements:**
@@ -247,11 +370,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **SNEd Inclusive Education Card** – Details SPED accommodations for learners with disabilities.
 4. **Curriculum Information Links** – Access to DepEd curriculum standards and classroom guidelines.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMISSION REQUIREMENTS CHECKLIST BY GRADE LEVEL
+<a id="fig-13" name="fig-13"></a>
+### Figure 13. Admission Requirements Checklist by Grade Level
 **Header:** PUBLIC LANDING PAGE & GUEST PORTAL  
-**Figure 13. Admission Requirements Checklist by Grade Level**  
 > **Figure Description:** Scroll to #requirementsSection on index.html. Capture the tabbed admission checklist showing tabs for Kindergarten, Transferee, and Balik-Aral, displaying mandatory physical documents and file format specifications.
 
 **Interface Controls & Elements:**
@@ -261,11 +386,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Upload Guidelines Box** – Reminds parents of max file sizes (5MB) and accepted formats (JPG, PNG, PDF).
 4. **Registrar Support Contacts** – Contact numbers for enrollment assistance.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### VPES DATA PRIVACY POLICY INTERFACE
+<a id="fig-14" name="fig-14"></a>
+### Figure 14. VPES Data Privacy Policy Interface
 **Header:** PUBLIC LANDING PAGE & GUEST PORTAL  
-**Figure 14. VPES Data Privacy Policy Interface**  
 > **Figure Description:** Click "Privacy Policy" in the footer of index.html or navigate to privacy-policy.html. Capture the page showing the RA 10173 statutory compliance notice, data collection boundaries, data sharing limitations, and security measures.
 
 **Interface Controls & Elements:**
@@ -275,11 +402,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Data Security Protocols** – Explains cloud SSL encryption, role-based controls, and automated audit trails.
 4. **Learner Rights Notice** – Outlines parent rights to inspect and request correction of student data.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### STUDENT TYPE SELECTION MODAL (NEW APPLICANT VS. EXISTING STUDENT)
+<a id="section-4" name="section-4"></a>
+# SECTION 4: ONLINE ADMISSIONS & DEPED BEEF APPLICANT PORTAL (FIGURES 15–27)
+
+
+---
+
+<a id="fig-15" name="fig-15"></a>
+### Figure 15. Student Type Selection Modal (New Applicant vs. Existing Student)
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 15. Student Type Selection Modal (New Applicant vs. Existing Student)**  
 > **Figure Description:** After signing up as a new applicant or clicking "Enroll Now" on index.html, capture the dialog injected by JS/studentTypeModal.js showing the two primary cards: "New Student / Transferee" and "Existing / Currently Enrolled Student".
 
 **Interface Controls & Elements:**
@@ -289,11 +424,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Category Descriptions** – Explains eligibility criteria for incoming pupils vs. continuing pupils.
 4. **Modal Dismiss Action** – Closes modal and returns to dashboard.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### STUDENT TYPE CONFIRMATION DIALOG
+<a id="fig-16" name="fig-16"></a>
+### Figure 16. Student Type Confirmation Dialog
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 16. Student Type Confirmation Dialog**  
 > **Figure Description:** Select "New Student / Transferee" in the student type modal to trigger JS/studentTypeConfirmationModal.js. Capture the confirmation dialog displaying the chosen enrollment path and "Confirm & Proceed" button.
 
 **Interface Controls & Elements:**
@@ -302,11 +439,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 2. **"Confirm & Proceed" Button** – Commits student type and opens applicationform.html.
 3. **"Change Selection" Button** – Returns to previous modal to select a different option.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### LRN VERIFICATION AND ACCOUNT LINKING MODAL
+<a id="fig-17" name="fig-17"></a>
+### Figure 17. LRN Verification and Account Linking Modal
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 17. LRN Verification and Account Linking Modal**  
 > **Figure Description:** Select "Existing Student" in the student type modal to trigger JS/lrnVerificationModal.js (#linkAccountModal). Capture the modal showing inputs for 12-digit LRN (#linkLrn), Student Birthdate (#linkBirthDate), and "Verify & Link Record" button (#btnLinkAccount).
 
 **Interface Controls & Elements:**
@@ -316,11 +455,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Verify & Link Record" Button (#btnLinkAccount)** – Queries MySQL database and attaches student record to guardian user account.
 4. **Error Alert Box (#linkMessage)** – Displays warning notice if LRN or birthdate is incorrect.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ONLINE ADMISSION FORM – STEP 1: SCHOOL INFORMATION & GRADE LEVEL SELECTION
+<a id="fig-18" name="fig-18"></a>
+### Figure 18. Online Admission Form – Step 1: School Information & Grade Level Selection
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 18. Online Admission Form – Step 1: School Information & Grade Level Selection**  
 > **Figure Description:** Navigate to applicationform.html. Capture Step 1 of the multi-step form showing the active School Year field (#schoolYear), Grade Level dropdown (#gradeLevel), Learner Status selection buttons (#withLrnNo, #withLrnYes, #returningLearner, #transferLearner), and "Next" button.
 
 **Interface Controls & Elements:**
@@ -331,11 +472,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Kindergarten Section Selector (#kindergartenSection)** – Appears when Kindergarten is selected.
 5. **"Next Step" Action Button** – Validates entries and advances to Step 2 (Demographic Information).
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ONLINE ADMISSION FORM – STEP 2: STUDENT DEMOGRAPHIC & BEEF INFORMATION
+<a id="fig-19" name="fig-19"></a>
+### Figure 19. Online Admission Form – Step 2: Student Demographic & BEEF Information
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 19. Online Admission Form – Step 2: Student Demographic & BEEF Information**  
 > **Figure Description:** Advance to Step 2 on applicationform.html. Capture the form showing PSA Birth Certificate No. (#psaBirth), Learner Name fields (#lastName, #firstName, #middleName, #extensionName), Birthdate (#birthDate), Sex radios (#sexMale, #sexFemale), Mother Tongue (#motherTongue), and 4Ps checkbox (#is4Ps).
 
 **Interface Controls & Elements:**
@@ -347,11 +490,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Mother Tongue Dropdown (#motherTongue)** – Primary native language spoken at home.
 6. **4Ps Beneficiary Checkbox (#is4Ps)** – Flag for Pantawid Pamilyang Pilipino Program recipients.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ONLINE ADMISSION FORM – STEP 3: PSGC CASCADING GEOGRAPHIC RESIDENTIAL ADDRESS
+<a id="fig-20" name="fig-20"></a>
+### Figure 20. Online Admission Form – Step 3: PSGC Cascading Geographic Residential Address
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 20. Online Admission Form – Step 3: PSGC Cascading Geographic Residential Address**  
 > **Figure Description:** Advance to Step 3 on applicationform.html. Capture the cascading address dropdowns showing Region (#regionSelect - Region V), Province (#provinceSelect - Camarines Norte), Municipality (#municipalitySelect - Vinzons), Barangay dropdown (#barangaySelect), House No./Street (#streetAddress), and Zip Code (#zipCode - 4603).
 
 **Interface Controls & Elements:**
@@ -363,11 +508,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **House No. / Street Address (#streetAddress)** – Specific residential location.
 6. **Postal Zip Code (#zipCode)** – Pre-filled postal code (4603 for Vinzons).
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ONLINE ADMISSION FORM – STEP 4: PARENT AND LEGAL GUARDIAN PROFILING
+<a id="fig-21" name="fig-21"></a>
+### Figure 21. Online Admission Form – Step 4: Parent and Legal Guardian Profiling
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 21. Online Admission Form – Step 4: Parent and Legal Guardian Profiling**  
 > **Figure Description:** Advance to Step 4 on applicationform.html. Capture the parent profiling fields showing Father's Name (#fatherLastName, #fatherFirstName), Mother's Maiden Name (#motherLastName, #motherFirstName), Guardian details (#guardianLastName, #guardianFirstName), and Emergency Contact Number (#emergencyContact).
 
 **Interface Controls & Elements:**
@@ -377,11 +524,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Legal Guardian Profile** – Guardian name and relationship if learner does not reside with parents.
 4. **Primary Emergency Mobile (#emergencyContact)** – Validated 11-digit mobile contact for urgent notices.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ONLINE ADMISSION FORM – STEP 5: SPECIAL NEEDS EDUCATION (SNED) & DISABILITY PROFILING
+<a id="fig-22" name="fig-22"></a>
+### Figure 22. Online Admission Form – Step 5: Special Needs Education (SNEd) & Disability Profiling
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 22. Online Admission Form – Step 5: Special Needs Education (SNEd) & Disability Profiling**  
 > **Figure Description:** Advance to Step 5 on applicationform.html. Capture the BEEF Section 5 profiling section showing "Has Disability" toggle (#hasDisability), Medical Diagnoses checkboxes (a1: Autism, ADHD, Cerebral Palsy, Visual, Hearing), Manifestations checkboxes (a2), and PWD ID Number input (#pwdIdNumber).
 
 **Interface Controls & Elements:**
@@ -392,11 +541,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **PWD ID Number Field (#pwdIdNumber)** – Official government Person with Disability card number.
 5. **Medical Assessment Upload Slot** – Optional attachment for diagnostic assessment reports.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ONLINE ADMISSION FORM – STEP 6: RETURNING LEARNER (BALIK-ARAL) AND TRANSFEREE HISTORY
+<a id="fig-23" name="fig-23"></a>
+### Figure 23. Online Admission Form – Step 6: Returning Learner (Balik-Aral) and Transferee History
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 23. Online Admission Form – Step 6: Returning Learner (Balik-Aral) and Transferee History**  
 > **Figure Description:** Advance to Step 6 on applicationform.html. Capture the previous school history fields showing Last Grade Level Completed (#lastGradeCompleted), Last School Year Attended (#lastSchoolYear), Previous School Name (#previousSchoolName), and School ID (#previousSchoolId).
 
 **Interface Controls & Elements:**
@@ -406,11 +557,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Previous School Name (#previousSchoolName)** – Official name of school of origin.
 4. **Previous DepEd School ID (#previousSchoolId)** – 6-digit DepEd institutional identifier.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ONLINE ADMISSION FORM – STEP 7: LEARNING MODALITY PREFERENCES
+<a id="fig-24" name="fig-24"></a>
+### Figure 24. Online Admission Form – Step 7: Learning Modality Preferences
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 24. Online Admission Form – Step 7: Learning Modality Preferences**  
 > **Figure Description:** Advance to Step 7 on applicationform.html. Capture the learning modality preferences card showing radio options for Face-to-Face, Blended, and Modular learning, digital device access checkboxes, and "Proceed to Document Upload" button.
 
 **Interface Controls & Elements:**
@@ -419,11 +572,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 2. **Household Digital Devices** – Checkboxes for smartphone, tablet, laptop, desktop, and internet connectivity.
 3. **"Proceed to Document Upload" Button** – Commits form entries and navigates to uploadDocument.html.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### DOCUMENT UPLOAD INTERFACE WITH GRADE-SPECIFIC REQUIREMENT SLOTS
+<a id="fig-25" name="fig-25"></a>
+### Figure 25. Document Upload Interface with Grade-Specific Requirement Slots
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 25. Document Upload Interface with Grade-Specific Requirement Slots**  
 > **Figure Description:** Navigate to uploadDocument.html. Capture the document upload slots for PSA Birth Certificate (#section-birth-cert), SF9 / Form 138 Report Card (#section-report-card), Kinder Certificate (#section-kinder-cert), file dropzones, and upload progress indicators.
 
 **Interface Controls & Elements:**
@@ -434,11 +589,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **File Drag-and-Drop Dropzone** – Supports JPG, PNG, and PDF files up to 5MB.
 5. **"Proceed to Review" Action Button** – Advances to final verification review on review.html.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### APPLICATION REVIEW, DATA PRIVACY AGREEMENT, AND DEPED CERTIFICATION
+<a id="fig-26" name="fig-26"></a>
+### Figure 26. Application Review, Data Privacy Agreement, and DepEd Certification
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 26. Application Review, Data Privacy Agreement, and DepEd Certification**  
 > **Figure Description:** Navigate to review.html. Capture the comprehensive application summary displaying applicant demographic details, address, parent contacts, missing documents alert (#missingDocsAlert), Data Privacy Agreement checkbox, and "Submit Application" button.
 
 **Interface Controls & Elements:**
@@ -449,11 +606,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Data Privacy Consent Checkbox** – Formal agreement under RA 10173 terms.
 5. **"Submit Application" Button** – Encrypts and transmits application to the registrar's review queue.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### APPLICATION SUBMISSION SUCCESS DIALOG WITH TRACKING CODE GENERATION
+<a id="fig-27" name="fig-27"></a>
+### Figure 27. Application Submission Success Dialog with Tracking Code Generation
 **Header:** ONLINE ADMISSIONS (DEPED BEEF COMPLIANCE)  
-**Figure 27. Application Submission Success Dialog with Tracking Code Generation**  
 > **Figure Description:** Submit the application on review.html to trigger the success dialog. Capture the confirmation dialog showing the green checkmark icon, the generated Application Reference Number (e.g., APP-2026-112937-042), QR tracking code, and "Proceed to Dashboard" button.
 
 **Interface Controls & Elements:**
@@ -463,11 +622,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Tracking QR Code** – Quick-scan code for verification at the campus security gate.
 4. **"Proceed to Dashboard" Button** – Navigates to applicantDashboard.html to schedule document submission.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### APPLICANT DASHBOARD WITH 5-STAGE ADMISSION PROGRESS TIMELINE
+<a id="section-5" name="section-5"></a>
+# SECTION 5: DOCUMENT VERIFICATION & APPOINTMENT SCHEDULER (FIGURES 28–35)
+
+
+---
+
+<a id="fig-28" name="fig-28"></a>
+### Figure 28. Applicant Dashboard with 5-Stage Admission Progress Timeline
 **Header:** DOCUMENT SUBMISSION & APPOINTMENT SCHEDULER  
-**Figure 28. Applicant Dashboard with 5-Stage Admission Progress Timeline**  
 > **Figure Description:** Open applicantDashboard.html. Capture the applicant home screen showing the learner header, reference code, current application status banner, and the 5-stage progress timeline (Submitted, Under Review, Appointment Booked, Verified, Officially Enrolled).
 
 **Interface Controls & Elements:**
@@ -477,11 +644,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Status Advisory Notification** – Actionable instructions explaining next required applicant step.
 4. **Dashboard Navigation Menu** – Tabs for Application Details, Documents, and Schedule Appointment.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### APPLICANT APPLICATION DETAILS TAB WITH BEEF DATA VIEWER
+<a id="fig-29" name="fig-29"></a>
+### Figure 29. Applicant Application Details Tab with BEEF Data Viewer
 **Header:** DOCUMENT SUBMISSION & APPOINTMENT SCHEDULER  
-**Figure 29. Applicant Application Details Tab with BEEF Data Viewer**  
 > **Figure Description:** Click the "Application Details" tab on applicantDashboard.html (or open applicationDetails.html). Capture the full read-only dossier displaying submitted personal, address, parent, and SNEd information.
 
 **Interface Controls & Elements:**
@@ -491,11 +660,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Parent / Guardian Panel** – Profiles and phone contacts of father, mother, and guardian.
 4. **Data Correction Advisory** – Instructions for requesting updates through the school registrar.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### APPLICANT DOCUMENT SUBMISSION MANAGEMENT & RE-UPLOAD INTERFACE
+<a id="fig-30" name="fig-30"></a>
+### Figure 30. Applicant Document Submission Management & Re-upload Interface
 **Header:** DOCUMENT SUBMISSION & APPOINTMENT SCHEDULER  
-**Figure 30. Applicant Document Submission Management & Re-upload Interface**  
 > **Figure Description:** Click the "Documents" tab on applicantDashboard.html. Capture the uploaded documents list showing verification status pills (Verified, Pending, Flagged), registrar feedback remarks, and "Re-upload" buttons for flagged files.
 
 **Interface Controls & Elements:**
@@ -505,11 +676,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Registrar Feedback Box** – Explains reason for rejection (e.g., blurred scan or missing page).
 4. **"Re-upload" Action Button** – Opens replacement modal to submit a clear document copy.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### DOCUMENT FULL-SCREEN REVIEW LIGHTBOX MODAL
+<a id="fig-31" name="fig-31"></a>
+### Figure 31. Document Full-Screen Review Lightbox Modal
 **Header:** DOCUMENT SUBMISSION & APPOINTMENT SCHEDULER  
-**Figure 31. Document Full-Screen Review Lightbox Modal**  
 > **Figure Description:** On the documents tab, click "View" on any uploaded file to trigger #viewModal. Capture the full-screen lightbox displaying an uploaded PSA Birth Certificate with zoom controls, "Open in New Tab" button (#viewOpenNewTabBtn), and close button (#closeViewBtn).
 
 **Interface Controls & Elements:**
@@ -519,11 +692,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Open in New Tab" Action (#viewOpenNewTabBtn)** – Launches native browser PDF viewer.
 4. **Close Viewer Button (#closeViewBtn)** – Dismisses lightbox.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### DOCUMENT FILE REPLACEMENT MODAL
+<a id="fig-32" name="fig-32"></a>
+### Figure 32. Document File Replacement Modal
 **Header:** DOCUMENT SUBMISSION & APPOINTMENT SCHEDULER  
-**Figure 32. Document File Replacement Modal**  
 > **Figure Description:** Click "Re-upload" on a flagged document card on applicantDashboard.html. Capture the file replacement modal showing target document title, drag-and-drop file dropzone, file name display, and "Confirm Replacement" button.
 
 **Interface Controls & Elements:**
@@ -533,11 +708,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Confirm Replacement" Button** – Overwrites blurred file in cloud storage and resets status to Pending.
 4. **Cancel Button** – Aborts file replacement.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ON-SITE PHYSICAL DOCUMENT SUBMISSION DATE SELECTOR INTERFACE
+<a id="fig-33" name="fig-33"></a>
+### Figure 33. On-Site Physical Document Submission Date Selector Interface
 **Header:** DOCUMENT SUBMISSION & APPOINTMENT SCHEDULER  
-**Figure 33. On-Site Physical Document Submission Date Selector Interface**  
 > **Figure Description:** Navigate to the Schedule Appointment section (#bookApptSection) on studentDashboard.html. Capture the interface showing the approved application alert banner, the appointment date dropdown displaying open dates with remaining capacity (e.g., "Monday, November 9, 2026 — 30 slots left"), and preferred session radio options.
 
 **Interface Controls & Elements:**
@@ -548,11 +725,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Mandatory Physical Checklist** – Reminds parents to bring original PSA certificate and Form 138.
 5. **"Book Appointment" Action Button** – Submits date selection to launch confirmation dialog.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### APPOINTMENT SLOT BOOKING CONFIRMATION MODAL
+<a id="fig-34" name="fig-34"></a>
+### Figure 34. Appointment Slot Booking Confirmation Modal
 **Header:** DOCUMENT SUBMISSION & APPOINTMENT SCHEDULER  
-**Figure 34. Appointment Slot Booking Confirmation Modal**  
 > **Figure Description:** Select an appointment date and session on studentDashboard.html and click "Book Appointment" to trigger #apptModal. Capture the confirmation modal displaying the chosen date, session hours, applicant reference number, and "Confirm Booking" button.
 
 **Interface Controls & Elements:**
@@ -562,11 +741,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Confirm Booking" Button** – Commits appointment to slot_bookings table and decrements slot capacity.
 4. **"Change Date" Button** – Returns to date selector to choose a different date.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### OFFICIAL DOCUMENT VERIFICATION APPOINTMENT SLIP WITH QR CODE
+<a id="fig-35" name="fig-35"></a>
+### Figure 35. Official Document Verification Appointment Slip with QR Code
 **Header:** DOCUMENT SUBMISSION & APPOINTMENT SCHEDULER  
-**Figure 35. Official Document Verification Appointment Slip with QR Code**  
 > **Figure Description:** Confirm an appointment slot to generate the official printable Appointment Slip. Capture the slip view showing the official DepEd letterhead, applicant name, scheduled date/time, QR verification code, and print button.
 
 **Interface Controls & Elements:**
@@ -577,11 +758,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Security QR Verification Code** – Scannable gate pass code verified by school security personnel.
 5. **"Print Slip" Action Button** – Launches browser print dialog to print or save as PDF.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ENROLLED STUDENT DASHBOARD HOME AND ADVISORY SECTION CARD
+<a id="section-6" name="section-6"></a>
+# SECTION 6: ENROLLED STUDENT & PARENT PORTAL (FIGURES 36–43)
+
+
+---
+
+<a id="fig-36" name="fig-36"></a>
+### Figure 36. Enrolled Student Dashboard Home and Advisory Section Card
 **Header:** ENROLLED STUDENT & PARENT PORTAL  
-**Figure 36. Enrolled Student Dashboard Home and Advisory Section Card**  
 > **Figure Description:** Log in with an officially enrolled student account on studentDashboard.html. Capture the enrolled home screen showing the learner header with 12-digit LRN badge, Section Information Card (#studentInfoCard) with section name, room number, and class adviser name, and announcements feed.
 
 **Interface Controls & Elements:**
@@ -591,11 +780,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Quick Navigation Tabs** – Fast links to Schedule, Grades (SF9), Re-Enrollment, and Profile.
 4. **School Bulletins Feed** – Live administrative announcements and weather suspension alerts.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ENROLLED STUDENT WEEKLY INTERACTIVE TIMETABLE / CLASS SCHEDULE
+<a id="fig-37" name="fig-37"></a>
+### Figure 37. Enrolled Student Weekly Interactive Timetable / Class Schedule
 **Header:** ENROLLED STUDENT & PARENT PORTAL  
-**Figure 37. Enrolled Student Weekly Interactive Timetable / Class Schedule**  
 > **Figure Description:** Click the "Schedule" tab on studentDashboard.html. Capture the 5-day weekly class timetable grid (Monday to Friday, 7:00 AM–5:00 PM) showing color-coded subject cards, assigned teacher names, classroom locations, and "Print Schedule" button.
 
 **Interface Controls & Elements:**
@@ -605,11 +796,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Subject Teacher Designation** – Identifies faculty member instructing each learning area.
 4. **"Print Timetable" Button** – Formats schedule for printable display.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ENROLLED STUDENT QUARTERLY ACADEMIC GRADES DISPLAY
+<a id="fig-38" name="fig-38"></a>
+### Figure 38. Enrolled Student Quarterly Academic Grades Display
 **Header:** ENROLLED STUDENT & PARENT PORTAL  
-**Figure 38. Enrolled Student Quarterly Academic Grades Display**  
 > **Figure Description:** Click the "Grades" tab on studentDashboard.html. Capture the official DepEd SF9 electronic report card matrix displaying learning areas, Quarter 1 to 4 numeric grades, Final Rating, Remarks (Passed/Failed), General Academic Average card, and "Download SF9 (PDF)" button.
 
 **Interface Controls & Elements:**
@@ -619,11 +812,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **General Average Card** – Highlights learner overall general academic average.
 4. **"Download SF9 (PDF)" Button** – Exports official printable DepEd SF9 progress report card.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ENROLLED STUDENT MAPEH COMPOSITE GRADE AND COMPONENT BREAKDOWN DRAWER
+<a id="fig-39" name="fig-39"></a>
+### Figure 39. Enrolled Student MAPEH Composite Grade and Component Breakdown Drawer
 **Header:** ENROLLED STUDENT & PARENT PORTAL  
-**Figure 39. Enrolled Student MAPEH Composite Grade and Component Breakdown Drawer**  
 > **Figure Description:** On the Grades tab of studentDashboard.html, click on the MAPEH row or the component breakdown drawer button. Capture the drawer displaying quarterly ratings for Music, Arts, Physical Education, and Health that compose the overall MAPEH rating.
 
 **Interface Controls & Elements:**
@@ -634,11 +829,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Physical Education Sub-Grade** – Numerical rating for Physical activity and sports.
 5. **Health Sub-Grade** – Numerical rating for Health, hygiene, and nutrition.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ENROLLED STUDENT HISTORICAL SCHOOL YEAR GRADE ARCHIVE BROWSER
+<a id="fig-40" name="fig-40"></a>
+### Figure 40. Enrolled Student Historical School Year Grade Archive Browser
 **Header:** ENROLLED STUDENT & PARENT PORTAL  
-**Figure 40. Enrolled Student Historical School Year Grade Archive Browser**  
 > **Figure Description:** On the Grades tab of studentDashboard.html, open the School Year archive selector dropdown. Capture the historical view showing past academic terms and archived finalized grades from previous grade levels.
 
 **Interface Controls & Elements:**
@@ -647,11 +844,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 2. **Historical Grades Table** – Read-only display of finalized marks from previous grade levels.
 3. **Historical Promotion Status** – Confirms promotion record for past school years.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ENROLLED STUDENT MASTER PROFILE VIEW
+<a id="fig-41" name="fig-41"></a>
+### Figure 41. Enrolled Student Master Profile View
 **Header:** ENROLLED STUDENT & PARENT PORTAL  
-**Figure 41. Enrolled Student Master Profile View**  
 > **Figure Description:** Click the "Profile" tab on studentDashboard.html. Capture the profile view showing learner demographic details, PSA registry number, 12-digit LRN, registered address in Vinzons, parent contacts, and password management form.
 
 **Interface Controls & Elements:**
@@ -661,11 +860,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Parent / Guardian Contacts** – Father, Mother, Guardian profiles and phone numbers.
 4. **Password Update Form** – Update portal account security password.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### CONTINUING STUDENT RE-ENROLLMENT CONFIRMATION TAB
+<a id="fig-42" name="fig-42"></a>
+### Figure 42. Continuing Student Re-Enrollment Confirmation Tab
 **Header:** ENROLLED STUDENT & PARENT PORTAL  
-**Figure 42. Continuing Student Re-Enrollment Confirmation Tab**  
 > **Figure Description:** Click the "Re-Enrollment" tab (#reEnrollmentNavItem) on studentDashboard.html when re-enrollment gating is active. Capture the tab showing incoming school year, target grade level, address/contact update inputs, and "Submit Re-Enrollment" button.
 
 **Interface Controls & Elements:**
@@ -675,11 +876,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Contact Information Verification** – Update current home address and mobile phone.
 4. **"Submit Re-Enrollment" Button** – Submits continuation intent directly to the registrar queue.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ALUMNI / GRADUATED STUDENT INTERFACE AND PERMANENT RECORD ACCESS
+<a id="fig-43" name="fig-43"></a>
+### Figure 43. Alumni / Graduated Student Interface and Permanent Record Access
 **Header:** ENROLLED STUDENT & PARENT PORTAL  
-**Figure 43. Alumni / Graduated Student Interface and Permanent Record Access**  
 > **Figure Description:** Log in with an alumni account (a learner who graduated Grade 6). Capture studentDashboard.html showing the "Elementary Graduate" completion badge, graduation school year, and permanent academic record (SF10) request access.
 
 **Interface Controls & Elements:**
@@ -689,11 +892,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Permanent Record Request** – Option to request certified SF10 (Form 137) transcript for high school enrollment.
 4. **Historical Academic Transcript** – Permanent archive of complete elementary marks.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER DASHBOARD OVERVIEW, ADVISORY CLASS SUMMARY, AND TEACHING LOADS
+<a id="section-7" name="section-7"></a>
+# SECTION 7: TEACHER & CLASS ADVISER PORTAL (FIGURES 44–54)
+
+
+---
+
+<a id="fig-44" name="fig-44"></a>
+### Figure 44. Teacher Dashboard Overview, Advisory Class Summary, and Teaching Loads
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 44. Teacher Dashboard Overview, Advisory Class Summary, and Teaching Loads**  
 > **Figure Description:** Log in with a teacher account on teacherDashboard.html. Capture the dashboard showing active school year badge (#activeSchoolYearBadge), teacher name (#teacherName), total classes (#totalClasses), total students (#totalStudents), total teaching hours (#totalTeachingHours), advisory section card (#advisorySectionName), and today's schedule drawer.
 
 **Interface Controls & Elements:**
@@ -704,11 +915,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Today's Schedule Drawer (#todayScheduleContainer)** – Highlights scheduled periods for the current day.
 5. **Grading Sheet Shortcut** – Fast link to quarterly grade encoding interface.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER RIGHT-SIDEBAR INTERACTIVE CALENDAR AND TODAY'S CLASS SCHEDULE DRAWER
+<a id="fig-45" name="fig-45"></a>
+### Figure 45. Teacher Right-Sidebar Interactive Calendar and Today's Class Schedule Drawer
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 45. Teacher Right-Sidebar Interactive Calendar and Today's Class Schedule Drawer**  
 > **Figure Description:** On teacherDashboard.html, expand the right sidebar (#rightSidebar). Capture the interactive mini calendar (#calendarMonth), today's class schedule timeline (#todayScheduleContainer), active class countdown badge, and room numbers.
 
 **Interface Controls & Elements:**
@@ -718,11 +931,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Active Class Countdown Badge** – Highlights ongoing subject period with time remaining.
 4. **Classroom Location Tag** – Assigned room number for upcoming classes.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER ADVISORY STUDENT ROSTER DIRECTORY
+<a id="fig-46" name="fig-46"></a>
+### Figure 46. Teacher Advisory Student Roster Directory
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 46. Teacher Advisory Student Roster Directory**  
 > **Figure Description:** Navigate to teacherStudents.html. Capture the advisory pupil directory showing total students stat (#totalStudents), search input (#studentSearch), section filter (#sectionFilter), and students table (#studentsTableBody) separated into Male and Female DepEd roster format.
 
 **Interface Controls & Elements:**
@@ -734,11 +949,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Parent Contact Numbers** – Direct phone numbers for emergency homeroom communication.
 6. **"View Profile" Action Button** – Opens student detail inspection modal (#viewProfileModal).
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER STUDENT PROFILE INSPECTION MODAL
+<a id="fig-47" name="fig-47"></a>
+### Figure 47. Teacher Student Profile Inspection Modal
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 47. Teacher Student Profile Inspection Modal**  
 > **Figure Description:** On teacherStudents.html, click "View Profile" on any student row to trigger #viewProfileModal. Capture the modal displaying student photo, 12-digit LRN (#modalProfileLrn), birthdate, address, and parent contact history.
 
 **Interface Controls & Elements:**
@@ -748,11 +965,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Parent / Guardian Profiles** – Father, Mother, Guardian names and registered phone numbers.
 4. **Close Profile Button** – Dismisses modal.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER QUARTERLY GRADING SHEET SPREADSHEET GRID
+<a id="fig-48" name="fig-48"></a>
+### Figure 48. Teacher Quarterly Grading Sheet Spreadsheet Grid
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 48. Teacher Quarterly Grading Sheet Spreadsheet Grid**  
 > **Figure Description:** Navigate to teacherGrades.html. Capture the grading interface showing the section selector (#sectionsGrid), subject chips tabs (#subjectChipsList), grading quarter tabs (#masterPeriodButtons: Q1, Q2, Q3, Q4), numeric grade input cells (.grade-input), auto-computed general average, and Save button.
 
 **Interface Controls & Elements:**
@@ -765,11 +984,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 6. **Automated Remarks Badge** – Displays Passed (>=75) or Failed (<75) badge.
 7. **"Save Grades" Action Button** – Commits encoded grades to database.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER MAPEH COMPONENT BREAKDOWN AND SUB-GRADING MODAL
+<a id="fig-49" name="fig-49"></a>
+### Figure 49. Teacher MAPEH Component Breakdown and Sub-Grading Modal
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 49. Teacher MAPEH Component Breakdown and Sub-Grading Modal**  
 > **Figure Description:** On teacherGrades.html, select MAPEH and click "Breakdown" on any pupil row to launch #mapehBreakdownModal. Capture the modal showing student name (#mapehModalStudentName), quarter (#mapehModalQuarter), separate grade inputs for Music, Arts, PE, and Health, and live computed average.
 
 **Interface Controls & Elements:**
@@ -781,11 +1002,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Health Grade Input** – Numerical mark for Health and hygiene competencies.
 6. **Computed MAPEH Average** – Auto-calculated average transferred to main grading spreadsheet.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER INDIVIDUAL WEEKLY TEACHING SCHEDULE AND PRINT LAYOUT
+<a id="fig-50" name="fig-50"></a>
+### Figure 50. Teacher Individual Weekly Teaching Schedule and Print Layout
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 50. Teacher Individual Weekly Teaching Schedule and Print Layout**  
 > **Figure Description:** Navigate to teacherSchedule.html. Capture the weekly timetable view showing total classes (#totalClasses), total hours (#totalHours), 5-day schedule grid (#teacherTimetableBody), subject schedule blocks with room numbers, and "Print Schedule" button.
 
 **Interface Controls & Elements:**
@@ -796,11 +1019,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Class Details Modal (#classDetailsModal)** – Click any block to inspect full period details.
 5. **"Print Schedule" Action Button** – Formats individual teaching schedule for classroom display.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER DEPED SCHOOL FORMS HUB (SF1 TO SF8 GENERATION CARDS)
+<a id="fig-51" name="fig-51"></a>
+### Figure 51. Teacher DepEd School Forms Hub (SF1 to SF8 Generation Cards)
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 51. Teacher DepEd School Forms Hub (SF1 to SF8 Generation Cards)**  
 > **Figure Description:** Navigate to teacherSchoolForms.html. Capture the catalog grid (#teacherCatalogGrid) displaying generation cards for SF1 (School Register), SF2 (Daily Attendance), SF5 (Promotion Report), and SF9 (Progress Report Card).
 
 **Interface Controls & Elements:**
@@ -811,11 +1036,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **SF9: Progress Report Card Hub** – Access batch report card generator workspace.
 5. **"Generate Form" Button** – Opens form options modal (#formOptionsModal).
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER SF2 DAILY ATTENDANCE MONTH AND YEAR SELECTION MODAL
+<a id="fig-52" name="fig-52"></a>
+### Figure 52. Teacher SF2 Daily Attendance Month and Year Selection Modal
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 52. Teacher SF2 Daily Attendance Month and Year Selection Modal**  
 > **Figure Description:** On teacherSchoolForms.html, click "Generate SF2" to trigger the attendance configuration modal. Capture the dialog showing School Year selector, Month dropdown (June to March), and "Generate SF2 Report" button.
 
 **Interface Controls & Elements:**
@@ -825,11 +1052,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Generate SF2 Report" Button** – Compiles daily attendance and computes monthly average attendance.
 4. **Export Format Selector** – Choose between Excel (.xlsx) and printable PDF formats.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER SF9 PROGRESS REPORT CARD WORKSPACE & BATCH ZIP DOWNLOAD INTERFACE
+<a id="fig-53" name="fig-53"></a>
+### Figure 53. Teacher SF9 Progress Report Card Workspace & Batch ZIP Download Interface
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 53. Teacher SF9 Progress Report Card Workspace & Batch ZIP Download Interface**  
 > **Figure Description:** On teacherSchoolForms.html, open the SF9 workspace (#teacherWorkspaceView). Capture the student list (#sf9StudentTableSection) showing pupil rows with "Preview Card" buttons, grading completeness indicator, and "Download All (ZIP)" batch export button (#sf9ActionsContainer).
 
 **Interface Controls & Elements:**
@@ -839,11 +1068,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Download All (ZIP)" Button (#sf9ActionsContainer)** – Packages all section report cards into a single ZIP file.
 4. **Grading Completeness Bar** – Confirms 100% of subject grades are encoded before batch export.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### TEACHER ACCOUNT PROFILE AND PASSWORD SETTINGS
+<a id="fig-54" name="fig-54"></a>
+### Figure 54. Teacher Account Profile and Password Settings
 **Header:** TEACHER & FACULTY PORTAL  
-**Figure 54. Teacher Account Profile and Password Settings**  
 > **Figure Description:** Navigate to teacherSettings.html. Capture the Profile tab (#profileTab) and Account tab (#accountTab) showing employee details, contact info (#displayName, #email, #phone), and password update form (#passwordForm).
 
 **Interface Controls & Elements:**
@@ -854,11 +1085,25 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Password Strength Meter (#passwordStrength)** – Visual indicator of password robustness.
 5. **"Save Changes" Button** – Commits updated profile credentials to database.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR EXECUTIVE DASHBOARD WITH REAL-TIME KPIS AND DAILY APPOINTMENT STREAM
+<a id="section-8" name="section-8"></a>
+# SECTION 8: ADMINISTRATOR & REGISTRAR OPERATIONS (FIGURES 55–87)
+
+
+---
+
+<a id="sec-8-1" name="sec-8-1"></a>
+## 8.1 Executive Dashboard & KPI Analytics (Figures 55–58)
+
+
+---
+
+<a id="fig-55" name="fig-55"></a>
+### Figure 55. Administrator Executive Dashboard with Real-Time KPIs and Daily Appointment Stream
 **Header:** ADMINISTRATOR DASHBOARD & KPI ANALYTICS  
-**Figure 55. Administrator Executive Dashboard with Real-Time KPIs and Daily Appointment Stream**  
 > **Figure Description:** Log in with an administrator account on adminDashboard.html. Capture the executive dashboard showing the four KPI summary cards: Total Applications (#kpiTotalApps), Pending Review (#kpiPendingApps), Today's Appointments (#kpiTodayAppts), Enrolled Students (#kpiEnrolledApps), and the admissions queue table (#applicationsTable).
 
 **Interface Controls & Elements:**
@@ -869,11 +1114,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **"Refresh Dashboard" Button (#btnDashboardRefresh)** – Refreshes all KPI metrics without page reload.
 5. **Fast Operations Shortcuts** – Direct access buttons to evaluate applications or assign sections.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR INTERACTIVE ANALYTICS GRAPH (BAR GRAPH / LINE TREND TOGGLE)
+<a id="fig-56" name="fig-56"></a>
+### Figure 56. Administrator Interactive Analytics Graph (Bar Graph / Line Trend Toggle)
 **Header:** ADMINISTRATOR DASHBOARD & KPI ANALYTICS  
-**Figure 56. Administrator Interactive Analytics Graph (Bar Graph / Line Trend Toggle)**  
 > **Figure Description:** On adminDashboard.html, scroll to the analytics chart section. Capture the enrollment distribution graph showing headcount across Kindergarten to Grade 6, gender ratio bars (Male vs. Female), and the Bar Graph vs. Line Trend view toggle button.
 
 **Interface Controls & Elements:**
@@ -883,11 +1130,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Gender Breakdown Legend** – Displays Male (Blue) vs. Female (Pink) enrollment proportions.
 4. **Export Chart Graphic Button** – Downloads chart image for school executive reports.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR CLASS SECTIONS & CAPACITY PANEL WITH UNASSIGNED STUDENTS ALERT
+<a id="fig-57" name="fig-57"></a>
+### Figure 57. Administrator Class Sections & Capacity Panel with Unassigned Students Alert
 **Header:** ADMINISTRATOR DASHBOARD & KPI ANALYTICS  
-**Figure 57. Administrator Class Sections & Capacity Panel with Unassigned Students Alert**  
 > **Figure Description:** On adminDashboard.html, locate the Section Capacity monitor. Capture the panel showing occupancy progress bars for each section, capacity ratios (e.g., 38/45), and the red "Unassigned Students" alert badge (#unassignedStudentsBadge).
 
 **Interface Controls & Elements:**
@@ -897,11 +1146,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Capacity Limit Warning** – Flags sections approaching maximum DepEd class size (45 pupils).
 4. **"Assign Sections" Shortcut** – Direct link to the drag-and-drop sectioning workspace.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR OPERATIONS HUB WITH PRIORITY ACTIONS AND LIVE AUDIT STREAM
+<a id="fig-58" name="fig-58"></a>
+### Figure 58. Administrator Operations Hub with Priority Actions and Live Audit Stream
 **Header:** ADMINISTRATOR DASHBOARD & KPI ANALYTICS  
-**Figure 58. Administrator Operations Hub with Priority Actions and Live Audit Stream**  
 > **Figure Description:** On adminDashboard.html, capture the Operations Hub section (JS/operationsHub.js) showing pending application tasks, document verification alerts, system status indicators, and live audit event stream.
 
 **Interface Controls & Elements:**
@@ -910,11 +1161,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 2. **Live Activity Ticker** – Real-time stream of user logins, submissions, and status changes.
 3. **System Health Status** – Confirms database, Firebase, mailer, and SMS gateway connectivity.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR APPLICATIONS MANAGEMENT HUB – NEW APPLICATIONS TAB
+<a id="sec-8-2" name="sec-8-2"></a>
+## 8.2 Application Lifecycle & Intake Evaluation (Figures 59–62)
+
+
+---
+
+<a id="fig-59" name="fig-59"></a>
+### Figure 59. Administrator Applications Management Hub – New Applications Tab
 **Header:** APPLICATIONS & ENROLLMENT MANAGEMENT  
-**Figure 59. Administrator Applications Management Hub – New Applications Tab**  
 > **Figure Description:** Navigate to applications.html under the "New Applications" tab (#newApplicationsTab). Capture the filter tabs (All #totalCount, Pending #pendingCount, Approved #approveCount, Enrolled #enrolledCount), search input (#searchInput), grade filter (#gradeFilter), applications table (#applicationsTable), and "Review" buttons.
 
 **Interface Controls & Elements:**
@@ -925,11 +1184,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Applications Data Table (#applicationsTable)** – Columns for Applicant Name, Grade, Date Filed, Status.
 5. **"Review" Action Button** – Launches comprehensive applicant dossier modal (#actionModal).
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR COMPREHENSIVE APPLICATION DOSSIER EVALUATION MODAL
+<a id="fig-60" name="fig-60"></a>
+### Figure 60. Administrator Comprehensive Application Dossier Evaluation Modal
 **Header:** APPLICATIONS & ENROLLMENT MANAGEMENT  
-**Figure 60. Administrator Comprehensive Application Dossier Evaluation Modal**  
 > **Figure Description:** On applications.html, click "Review" on any applicant row to launch #actionModal. Capture the modal displaying student personal info, uploaded documents preview drawer, "Approve for Verification" button (#approveBtn), "Enroll" button (#enrollBtn), and "Reject / Return" action buttons.
 
 **Interface Controls & Elements:**
@@ -941,11 +1202,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **"Officially Enroll" Action (#enrollBtn)** – Prompts enrollment modal to finalize class enrollment.
 6. **"Return for Revision" Action** – Flags deficiencies and dispatches email notification to parent.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR CONTINUING STUDENT RE-ENROLLMENT PROCESSING QUEUE
+<a id="fig-61" name="fig-61"></a>
+### Figure 61. Administrator Continuing Student Re-Enrollment Processing Queue
 **Header:** APPLICATIONS & ENROLLMENT MANAGEMENT  
-**Figure 61. Administrator Continuing Student Re-Enrollment Processing Queue**  
 > **Figure Description:** On applications.html, switch to the "Re-Enrollment" tab (#reEnrollmentTab). Capture the queue showing active school year (#reCurrentSchoolYear), re-enrollment stats (#reStatTotal, #reStatPending, #reStatConfirmed), continuing pupil rows, and bulk approval checkboxes.
 
 **Interface Controls & Elements:**
@@ -956,11 +1219,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Bulk Approval Checkboxes** – Select multiple re-enrollees for simultaneous approval.
 5. **"Assign Section" Action** – Directly allocates approved re-enrollees to target grade sections.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR STUDENT YEAR-END PROMOTION AND GRADE 6 GRADUATION WORKSPACE
+<a id="fig-62" name="fig-62"></a>
+### Figure 62. Administrator Student Year-End Promotion and Grade 6 Graduation Workspace
 **Header:** APPLICATIONS & ENROLLMENT MANAGEMENT  
-**Figure 62. Administrator Student Year-End Promotion and Grade 6 Graduation Workspace**  
 > **Figure Description:** Open the promotion/graduation workspace on applications.html or settings.html. Capture the table showing Grade 6 completers, general averages, honors classifications (With Honors, High Honors, Highest Honors), and "Confirm Graduation" action buttons.
 
 **Interface Controls & Elements:**
@@ -970,11 +1235,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Confirm Graduation" Action Button** – Updates student state to officially Graduated Alumni.
 4. **Export Graduation Roster** – Downloads certified graduation directory for division office.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR MASTER DOCUMENT REPOSITORY IN TABLE VIEW AND DOSSIER VIEW
+<a id="sec-8-3" name="sec-8-3"></a>
+## 8.3 Document Repository & Verification (Figures 63–64)
+
+
+---
+
+<a id="fig-63" name="fig-63"></a>
+### Figure 63. Administrator Master Document Repository in Table View and Dossier View
 **Header:** DOCUMENT VERIFICATION REPOSITORY  
-**Figure 63. Administrator Master Document Repository in Table View and Dossier View**  
 > **Figure Description:** Navigate to documents.html. Capture the master document repository showing the Table View / Dossier View toggle (#btnTableView, #btnDossierView), document statistics (#statTotalDocs, #statVerifiedDocs, #statPendingDocs), document type filter (#docTypeFilter), and documents table (#documentsTableBody).
 
 **Interface Controls & Elements:**
@@ -985,11 +1258,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Documents Data Table (#documentsTableBody)** – Lists pupil name, document category, upload date, status.
 5. **"View Document" Action** – Launches high-resolution document preview lightbox.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR ENHANCED DOCUMENT PREVIEW AND VERIFICATION LIGHTBOX
+<a id="fig-64" name="fig-64"></a>
+### Figure 64. Administrator Enhanced Document Preview and Verification Lightbox
 **Header:** DOCUMENT VERIFICATION REPOSITORY  
-**Figure 64. Administrator Enhanced Document Preview and Verification Lightbox**  
 > **Figure Description:** On documents.html, click "View" on any document row to launch the verification lightbox. Capture the lightbox displaying an uploaded PSA Birth Certificate with zoom and rotate controls, "Verify Document" button, and "Flag for Re-upload" feedback prompt.
 
 **Interface Controls & Elements:**
@@ -999,11 +1274,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **"Verify Document" Action Button** – Sets status to Verified, recording admin ID and timestamp.
 4. **"Flag for Re-upload" Action Button** – Prompts feedback dialog to notify parent of unreadable file.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR DOCUMENT VERIFICATION SLOT MANAGEMENT AND ATTENDEE ROSTER
+<a id="sec-8-4" name="sec-8-4"></a>
+## 8.4 Appointment Slots & Intake Capacity (Figures 65–66)
+
+
+---
+
+<a id="fig-65" name="fig-65"></a>
+### Figure 65. Administrator Document Verification Slot Management and Attendee Roster
 **Header:** APPOINTMENT SLOTS MANAGEMENT  
-**Figure 65. Administrator Document Verification Slot Management and Attendee Roster**  
 > **Figure Description:** Navigate to documentSlots.html. Capture the interface showing the Bookings Tab (#tabBtn-bookings) vs. Slots Tab (#tabBtn-slots), slot statistics (#statTotalSlots, #statActiveSlots, #statTotalBookings), calendar month selector, booked applicants table (#allBookingsTableBody), and "Add New Slot" button.
 
 **Interface Controls & Elements:**
@@ -1014,11 +1297,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **"Mark as Attended" Action Button** – Confirms physical document submission upon campus arrival.
 5. **"Add Slot" Button (#slotModal)** – Opens modal to create individual intake slots for specific dates.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR BULK SLOT GENERATION MODAL
+<a id="fig-66" name="fig-66"></a>
+### Figure 66. Administrator Bulk Slot Generation Modal
 **Header:** APPOINTMENT SLOTS MANAGEMENT  
-**Figure 66. Administrator Bulk Slot Generation Modal**  
 > **Figure Description:** On documentSlots.html, click "Bulk Generate Slots" to launch #bulkModal. Capture the modal showing start and end date pickers, Exclude Weekends checkbox, Morning Session capacity input (AM), Afternoon Session capacity input (PM), and "Generate Slots" button.
 
 **Interface Controls & Elements:**
@@ -1029,11 +1314,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Afternoon (PM) Capacity Input** – Set maximum appointments per afternoon session (1:00 PM – 5:00 PM).
 5. **"Generate Slots" Action Button** – Commits recurring daily appointment capacity across target date range.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR MASTER STUDENT DATABASE AND FILTERING CONTROLS
+<a id="sec-8-5" name="sec-8-5"></a>
+## 8.5 Student Master Database & LRN Updates (Figures 67–69)
+
+
+---
+
+<a id="fig-67" name="fig-67"></a>
+### Figure 67. Administrator Master Student Database and Filtering Controls
 **Header:** STUDENT MASTER DATABASE & LRN UPDATE  
-**Figure 67. Administrator Master Student Database and Filtering Controls**  
 > **Figure Description:** Navigate to students.html. Capture the master student database showing the grade level count pills (#kindergarten-count to #grade6-count), universal search input (#searchInput), grade filter (#gradeFilter), section filter (#sectionFilter), students table (#studentsTable), and row action menus.
 
 **Interface Controls & Elements:**
@@ -1045,11 +1338,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **"Update LRN" Action Button** – Launches DepEd LRN assignment modal (#updateLrnModal).
 6. **"Unlink Account" Action Button** – Triggers guardian detachment modal (#unlinkModal).
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR SECTION ASSIGNMENT AND DRAG-AND-DROP MANAGEMENT INTERFACE
+<a id="fig-68" name="fig-68"></a>
+### Figure 68. Administrator Section Assignment and Drag-and-Drop Management Interface
 **Header:** CLASS SECTION & ADVISER MANAGEMENT  
-**Figure 68. Administrator Section Assignment and Drag-and-Drop Management Interface**  
 > **Figure Description:** Navigate to sections.html and click the "Assign Students to Sections" tab (#tabBtnAssignStudents). Capture the workspace showing Target Section selector (#sectionViewFilter), publication status banner (#sectionRosterPublishBanner: Draft vs. Published), Unassigned Students pool on left (separated into Male and Female columns with checkboxes), and Section Dropzones on right with capacity indicators (e.g., 18/36) and remove (×) buttons.
 
 **Interface Controls & Elements:**
@@ -1062,11 +1357,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 6. **Unassign Pupil Action (×)** – One-click button to safely return assigned pupil to the unassigned queue.
 7. **"Publish Section Roster" Button** – Commits section assignments to official DepEd enrollment records.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR LRN UPDATE AND ACCOUNT UNLINKING MODALS
+<a id="fig-69" name="fig-69"></a>
+### Figure 69. Administrator LRN Update and Account Unlinking Modals
 **Header:** STUDENT MASTER DATABASE & LRN UPDATE  
-**Figure 69. Administrator LRN Update and Account Unlinking Modals**  
 > **Figure Description:** On students.html, capture a composite view showing #updateLrnModal (displaying student name, current temporary LRN, 12-digit numeric input with green validation indicator, and Save button) alongside #unlinkModal (displaying linked guardian info, 5-second countdown timer, and Confirm Unlink button).
 
 **Interface Controls & Elements:**
@@ -1078,11 +1375,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **5-Second Safety Lock Timer** – Disables confirmation button for 5 seconds to prevent accidental unlinking.
 6. **"Confirm Unlink" Button** – Enables after countdown; detaches guardian account and logs security audit trail.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR SECTION MANAGEMENT AND CLASS ADVISER ASSIGNMENT INTERFACE
+<a id="sec-8-6" name="sec-8-6"></a>
+## 8.6 Section Management & Timetable Scheduling (Figures 70–75)
+
+
+---
+
+<a id="fig-70" name="fig-70"></a>
+### Figure 70. Administrator Section Management and Class Adviser Assignment Interface
 **Header:** CLASS SECTION & ADVISER MANAGEMENT  
-**Figure 70. Administrator Section Management and Class Adviser Assignment Interface**  
 > **Figure Description:** Navigate to sections.html under the "Manage Sections" tab (#tabBtnManageSections). Capture the section cards grid (#sectionsGrid), grade level filter (#gradeLevelFilter), section details (Section Name, Room Number, Capacity bar, Class Adviser dropdown), and "Create New Section" modal (#sectionModal).
 
 **Interface Controls & Elements:**
@@ -1094,11 +1399,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Capacity Progress Bar** – Color-coded occupancy meter (Green: Open slots; Red: Full section at 45 pupils).
 6. **Edit / Archive Actions** – Modify room and adviser settings, or safely archive section.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR DEPED ELEMENTARY SUBJECT CURRICULUM MANAGEMENT
+<a id="fig-71" name="fig-71"></a>
+### Figure 71. Administrator DepEd Elementary Subject Curriculum Management
 **Header:** CURRICULUM & SUBJECT MANAGEMENT  
-**Figure 71. Administrator DepEd Elementary Subject Curriculum Management**  
 > **Figure Description:** Navigate to subjectManagement.html. Capture the interface showing the Active Curriculum tab (#tabActive) vs. Archived Subjects tab (#tabArchived), grade level filter (#gradeLevelFilter), subject cards with Subject Code and Units, and the "Add Subject" modal (#subjectModal).
 
 **Interface Controls & Elements:**
@@ -1110,11 +1417,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **"Archive Subject" Action Button** – Deactivates subject without deleting historical grade records.
 6. **"Restore Subject" Action Button** – Restores previously archived subjects back to active curriculum status.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR FACULTY AND TEACHER MANAGEMENT DIRECTORY WITH CLUSTER FILTERS
+<a id="fig-72" name="fig-72"></a>
+### Figure 72. Administrator Faculty and Teacher Management Directory with Cluster Filters
 **Header:** FACULTY & TEACHER DIRECTORY  
-**Figure 72. Administrator Faculty and Teacher Management Directory with Cluster Filters**  
 > **Figure Description:** Navigate to teacherManagement.html. Capture the faculty directory showing the cluster filter pills (#clusterPillAll, #clusterPillKinder, #clusterPillPrimary, #clusterPillIntermediate), teacher search input (#searchInput), teacher profile cards (#teachersTableBody), and "Add New Teacher" modal (#teacherModal).
 
 **Interface Controls & Elements:**
@@ -1126,11 +1435,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Faculty Profile Cards (#teachersTableBody)** – Displays teacher avatar, employee ID, specialization, and advisory section.
 6. **"View Timetable" Action Button** – Launches large teacher timetable modal (#largeTeacherTimetableModal).
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR FACULTY MASTER TIMETABLE INSPECTION MODAL
+<a id="fig-73" name="fig-73"></a>
+### Figure 73. Administrator Faculty Master Timetable Inspection Modal
 **Header:** FACULTY & TEACHER DIRECTORY  
-**Figure 73. Administrator Faculty Master Timetable Inspection Modal**  
 > **Figure Description:** On teacherManagement.html, click "View Timetable" on any teacher card to launch #largeTeacherTimetableModal. Capture the modal displaying the teacher identification header, the 5-day weekly schedule grid (Monday to Friday, 7:00 AM–5:00 PM), subject blocks with section labels, and the "Print Timetable" button.
 
 **Interface Controls & Elements:**
@@ -1141,11 +1452,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Advisory Homeroom Highlight** – Highlights periods where teacher acts as homeroom class adviser.
 5. **"Print Timetable" Action Button** – Formats weekly schedule into official individual SF7 teaching program PDF.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR TIMETABLE BUILDER – MASTER CLASS SCHEDULES OVERVIEW
+<a id="fig-74" name="fig-74"></a>
+### Figure 74. Administrator Timetable Builder – Master Class Schedules Overview
 **Header:** CLASS SCHEDULES & TIMETABLE BUILDER  
-**Figure 74. Administrator Timetable Builder – Master Class Schedules Overview**  
 > **Figure Description:** Navigate to scheduleManagement.html under the "Master Class Schedules" tab (#tabBtnMasterSectionsCalendar). Capture the interface showing the Schedule Publication Status Banner (#masterSchedPublishBanner: Draft vs. Published), Grade Level filter (#masterSchedGradeFilter), section search input (#masterSchedSectionSearch), and Section Schedule Cards grid (#masterSectionSchedulesGrid).
 
 **Interface Controls & Elements:**
@@ -1157,11 +1470,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Section Schedule Cards (#masterSectionSchedulesGrid)** – Summarizes weekly subject load, total minutes, and publication status.
 6. **"Switch to Schedule Builder" Action (#tabBtnScheduleEditor)** – Transitions to interactive schedule editor.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR TIMETABLE SESSION CREATOR WITH AUTOMATED CONFLICT DETECTION ENGINE
+<a id="fig-75" name="fig-75"></a>
+### Figure 75. Administrator Timetable Session Creator with Automated Conflict Detection Engine
 **Header:** CLASS SCHEDULES & TIMETABLE BUILDER  
-**Figure 75. Administrator Timetable Session Creator with Automated Conflict Detection Engine**  
 > **Figure Description:** On scheduleManagement.html, switch to the "Class Schedule Builder" tab (#tabBtnScheduleEditor). Capture the dual-panel interface showing the Left Panel session creator form (#createForm: Section, Subject, Teacher, Start Time, Duration in minutes, Day of week checkboxes, Room), the Right Panel 5-day weekly timetable grid, and the Collision Warning Modal flashing when an overlap occurs.
 
 **Interface Controls & Elements:**
@@ -1175,11 +1490,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 7. **"Auto-Assign Teachers" Button** – Intelligently assigns qualified teachers based on cluster specializations.
 8. **"Save Schedule" Action Button** – Commits finalized section timetable to database.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR USER ACCOUNT MANAGEMENT AND STAFF CREATION MODAL
+<a id="sec-8-7" name="sec-8-7"></a>
+## 8.7 User Administration & Security Audit Logs (Figures 76–80)
+
+
+---
+
+<a id="fig-76" name="fig-76"></a>
+### Figure 76. Administrator User Account Management and Staff Creation Modal
 **Header:** USER MANAGEMENT & SECURITY ROLES  
-**Figure 76. Administrator User Account Management and Staff Creation Modal**  
 > **Figure Description:** Navigate to users.html. Capture the user management interface showing the role filter pills (All, Admin #adminCount, Teacher #teacherCount, Student #studentCount), user search box (#searchInput), user accounts table (#usersTable) with active/suspended toggles, and "Add User" modal (#addUserModal).
 
 **Interface Controls & Elements:**
@@ -1191,11 +1514,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Account Status Toggle Switch** – Instant toggle to activate or suspend user login credentials.
 6. **"Reset Password" Action Button** – Dispatches official password reset email to user.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR USER ROLE MODIFICATION DIALOG WITH DEMOTION SAFEGUARDS
+<a id="fig-77" name="fig-77"></a>
+### Figure 77. Administrator User Role Modification Dialog with Demotion Safeguards
 **Header:** USER MANAGEMENT & SECURITY ROLES  
-**Figure 77. Administrator User Role Modification Dialog with Demotion Safeguards**  
 > **Figure Description:** On users.html, click "Edit Role" on any user row to launch #editRoleModal. Capture the role modification dialog showing target user details (#editRoleUserInfo), role assignment dropdown (#newRole: Administrator, Teacher, Student/Parent), administrator demotion safeguard warning, and "Save Role Changes" button.
 
 **Interface Controls & Elements:**
@@ -1205,11 +1530,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Demotion Safeguard Check** – Automated rule preventing demoting the last remaining active administrator.
 4. **"Save Role Changes" Action Button** – Commits role designation and updates session security claims.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR ANNOUNCEMENTS MANAGEMENT HUB AND CATEGORY TAGGING
+<a id="fig-78" name="fig-78"></a>
+### Figure 78. Administrator Announcements Management Hub and Category Tagging
 **Header:** ANNOUNCEMENTS & FACEBOOK SYNC  
-**Figure 78. Administrator Announcements Management Hub and Category Tagging**  
 > **Figure Description:** Navigate to announcements.html. Capture the announcements hub showing status tabs (Published #tabPublished, Pending Review #tabPending, Archived #tabArchived), priority pinned bulletins, and the "Create Announcement" modal (#createAnnouncementModal) active with Title (#annTitle), Category (#annCategory), Target Audience, Content editor, Priority Pinning toggle, and Auto-Post to Facebook toggle (#postToFacebook).
 
 **Interface Controls & Elements:**
@@ -1221,11 +1548,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Auto-Post to Facebook Toggle (#postToFacebook)** – Synchronizes announcement simultaneously to the official VPES Facebook Page.
 6. **"Publish Announcement" Action Button** – Broadcasts advisory across selected channels.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR FACEBOOK SYNCED POST REVIEW AND APPROVAL TWO-COLUMN LIGHTBOX
+<a id="fig-79" name="fig-79"></a>
+### Figure 79. Administrator Facebook Synced Post Review and Approval Two-Column Lightbox
 **Header:** ANNOUNCEMENTS & FACEBOOK SYNC  
-**Figure 79. Administrator Facebook Synced Post Review and Approval Two-Column Lightbox**  
 > **Figure Description:** On announcements.html, switch to the "Pending Review" tab (#tabPending) and click "Review" on an incoming Facebook post to launch #reviewModal. Capture the two-column lightbox showing the raw Facebook post and photo on the left panel, and portal category and formatting controls on the right panel.
 
 **Interface Controls & Elements:**
@@ -1236,11 +1565,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **"Approve & Publish to Portal" Button** – Approves post and publishes it directly to the public landing page feed.
 5. **"Dismiss / Reject Post" Button** – Removes post from review queue without publishing to portal.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR SYSTEM AUDIT AND ACTIVITY LOGS INTERFACE
+<a id="fig-80" name="fig-80"></a>
+### Figure 80. Administrator System Audit and Activity Logs Interface
 **Header:** SYSTEM AUDIT & SECURITY LOGS  
-**Figure 80. Administrator System Audit and Activity Logs Interface**  
 > **Figure Description:** Navigate to auditLogs.html. Capture the audit logs interface showing the 5 KPI summary cards (#statTotalLogs, #statTodayLogs, #statReEnrollLogs, #statAdmissionsLogs, #statSecurityLogs), category filter pills, date range filter dropdown (#auditDateFilter), search box (#auditSearchInput), audit trail data table (#auditTableBody), and row-click Audit Event Detail modal (#auditDetailModal).
 
 **Interface Controls & Elements:**
@@ -1253,11 +1584,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 6. **Audit Event Detail Modal (#auditDetailModal)** – Click any row to inspect programmatic action code, timestamp, performer email, description, and application ref.
 7. **"Refresh Logs" Action Button (#btnRefreshLogs)** – Polls for newly recorded events without reloading the page.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR SCHOOL YEAR MANAGEMENT AND ACTIVATION READINESS AUDIT MODAL
+<a id="sec-8-8" name="sec-8-8"></a>
+## 8.8 School Year Management & System CMS (Figures 81–84)
+
+
+---
+
+<a id="fig-81" name="fig-81"></a>
+### Figure 81. Administrator School Year Management and Activation Readiness Audit Modal
 **Header:** SYSTEM SETTINGS & ADMISSION GATING  
-**Figure 81. Administrator School Year Management and Activation Readiness Audit Modal**  
 > **Figure Description:** Navigate to settings.html under the "School Year" tab (#schoolYearTab). Capture the active school year banner (#activeSchoolYearText), historical school years table, "Add School Year" modal, "Check Activation Readiness" button, and the Activation Readiness Audit modal displaying the verification checklist (grades, promotions, sections).
 
 **Interface Controls & Elements:**
@@ -1268,11 +1607,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **"Check Activation Readiness" Action Button** – Runs automated institutional audit of 4th-quarter grades and promotions.
 5. **Readiness Checklist & Resolution Modal** – Itemizes missing grades; enables "Activate School Year" button once resolved.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR INDEPENDENT ADMISSION GATING SWITCHES (EARLY REG, ENROLLMENT, RE-ENROLLMENT)
+<a id="fig-82" name="fig-82"></a>
+### Figure 82. Administrator Independent Admission Gating Switches (Early Reg, Enrollment, Re-Enrollment)
 **Header:** SYSTEM SETTINGS & ADMISSION GATING  
-**Figure 82. Administrator Independent Admission Gating Switches (Early Reg, Enrollment, Re-Enrollment)**  
 > **Figure Description:** On settings.html, locate the three admission gating cards. Capture the interface showing the independent toggle switches for Early Registration (#toggleEarlyRegBtn), Official General Enrollment (#toggleEnrollmentBtn), and Re-Enrollment (#toggleReEnrollmentBtn), scheduled calendar date pickers, and public closed advisory textboxes.
 
 **Interface Controls & Elements:**
@@ -1283,11 +1624,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Scheduled Calendar Date Pickers** – Sets automated opening and closing calendar dates for admission forms.
 5. **Public Closed Advisory Textbox** – Customizes advisory message displayed on public portal when enrollment is closed.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR SCHOOL INSTITUTIONAL PROFILE AND DEPED IDENTIFIERS CONFIGURATION
+<a id="fig-83" name="fig-83"></a>
+### Figure 83. Administrator School Institutional Profile and DepEd Identifiers Configuration
 **Header:** SYSTEM SETTINGS & ADMISSION GATING  
-**Figure 83. Administrator School Institutional Profile and DepEd Identifiers Configuration**  
 > **Figure Description:** On settings.html, switch to the "School Profile" tab. Capture the official DepEd Institutional Profile form showing School Name (Vinzons Pilot Elementary School), DepEd ID (112937), Principal Name, Division (Camarines Norte), Region (Region V - Bicol), School Seal uploader, and Save button.
 
 **Interface Controls & Elements:**
@@ -1299,11 +1642,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Public Contact Details** – Configures public office email, phone numbers, and official Facebook Page URL.
 6. **"Save Profile" Action Button** – Commits institutional data across all report headers.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR LANDING PAGE CONTENT MANAGEMENT SYSTEM (CMS) WITH LIVE PREVIEW
+<a id="fig-84" name="fig-84"></a>
+### Figure 84. Administrator Landing Page Content Management System (CMS) with Live Preview
 **Header:** SYSTEM SETTINGS & ADMISSION GATING  
-**Figure 84. Administrator Landing Page Content Management System (CMS) with Live Preview**  
 > **Figure Description:** On settings.html, switch to the CMS tab. Capture the landing page editor showing hero headline editor, announcement card toggles, DepEd core values editor, photo gallery uploader, and the side-by-side live preview canvas iframe.
 
 **Interface Controls & Elements:**
@@ -1314,11 +1659,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 4. **Live Preview Canvas Iframe** – Real-time preview displaying how edits look before publishing.
 5. **"Save & Publish CMS" Button** – Commits content changes to public website.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR SCHOOL FORMS & OFFICIAL REPORTS CENTER
+<a id="sec-8-9" name="sec-8-9"></a>
+## 8.9 School Forms & Official Reports Center (Figure 85)
+
+
+---
+
+<a id="fig-85" name="fig-85"></a>
+### Figure 85. Administrator School Forms & Official Reports Center
 **Header:** SCHOOL FORMS & OFFICIAL REPORTS CENTER  
-**Figure 85. Administrator School Forms & Official Reports Center**  
 > **Figure Description:** Navigate to academicRecords.html. Capture the School Forms & Official Reports Center catalog showing the four active DepEd report cards: SF4 (Monthly Movement), SF6 (Promotion Summary), SF7 (Personnel Assignment), SF10-ES (Permanent Record), and the live PDF viewer modal (#sf10ModalOverlay) with "Download PDF" and "Download Excel (.xlsx)" buttons.
 
 **Interface Controls & Elements:**
@@ -1330,11 +1683,19 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **SF10-ES: Permanent Academic Record Card** – "Open SF10 Generator" button launches Form 137 workspace (#workspace-sf10).
 6. **Official PDF Viewer Modal (#sf10ModalOverlay)** – Embedded viewer with direct "Download PDF" and "Download Excel (.xlsx)" buttons.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### ADMINISTRATOR BULK STUDENT CSV IMPORT INTERFACE
+<a id="sec-8-10" name="sec-8-10"></a>
+## 8.10 Administrative Utilities & Certificate Templates (Figures 86–87)
+
+
+---
+
+<a id="fig-86" name="fig-86"></a>
+### Figure 86. Administrator Bulk Student CSV Import Interface
 **Header:** ADMINISTRATIVE UTILITIES & EXPORTS  
-**Figure 86. Administrator Bulk Student CSV Import Interface**  
 > **Figure Description:** Navigate to importStudents.html. Capture the bulk student CSV import interface showing the drag-and-drop CSV upload zone (#uploadArea), file input (#fileInput), CSV header format instructions (lrn, last_name, first_name, gender, birth_date), validation progress bar (#progressBar, #progressFill), and "Import Students" button (#importBtn).
 
 **Interface Controls & Elements:**
@@ -1344,11 +1705,13 @@ Developed as a capstone research project under the **Department of Computer Stud
 3. **Validation Progress Bar (#progressBar, #progressFill)** – Validates duplicate LRNs and reports formatting errors.
 4. **"Import Students" Action Button (#importBtn)** – Commits validated student records into students table.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
-### OFFICIAL LIST OF ENROLLEES CERTIFICATE-STYLE PRINT PREVIEW TEMPLATE
+<a id="fig-87" name="fig-87"></a>
+### Figure 87. Official List of Enrollees Certificate-Style Print Preview Template
 **Header:** ADMINISTRATIVE UTILITIES & EXPORTS  
-**Figure 87. Official List of Enrollees Certificate-Style Print Preview Template**  
 > **Figure Description:** Navigate to preview_enrollees_template.html. Capture the ceremonial Official List of Enrollees template (#sheetPreview) showing the formal DepEd Region V & Division of Camarines Norte header, ornamental border, Grade & Section title (#previewGradeSection), enrolled pupil roster (#rosterTbody), Boys/Girls/Total counts, School Principal certification block, and print button.
 
 **Interface Controls & Elements:**
@@ -1360,8 +1723,11 @@ Developed as a capstone research project under the **Department of Computer Stud
 5. **Principal Certification Block** – Official signature and date line for School Principal.
 6. **"Print Document" Action Button** – Formats ceremonial certificate for high-resolution printing.
 
+[↑ Back to Table of Contents](#table-of-contents)
+
 ---
 
+<a id="section-9" name="section-9"></a>
 # SECTION 9: OFFICIAL DEPED SCHOOL FORMS (SF) MASTER MATRIX
 
 The following table summarizes the official DepEd School Forms generated, processed, and exported by VPES-SIMS:
@@ -1376,15 +1742,20 @@ The following table summarizes the official DepEd School Forms generated, proces
 | **SF6** | Summarized Report on Promotion (Form 20) | School Head / Admin | School-wide statistical matrix (`academicRecords.html`) |
 | **SF7** | School Personnel Assignment List & Basic Profile | School Head / Admin | Faculty plantilla & class timetable (`academicRecords.html`) |
 | **SF8** | Learner Basic Health and Nutrition Report | Class Adviser | Nutritional status and BMI assessment |
-| **SF9** | Progress Report Card (Form 138) | Class Adviser / Student | Official quarterly ratings with MAPEH composite breakdown |
-| **SF10-ES**| Learner Permanent Academic Record (Form 137)| School Registrar / Admin | Multi-year cumulative transcript (`academicRecords.html`) |
-| **SNEd** | Special Needs Education & PWD Registry | SPED Coordinator / Admin | BEEF Section 5 compliant diagnostic directory |
+| **SF9** | Progress Report Card (Form 138) | Class Adviser / Student | Official quarterly card with attendance & core values |
+| **SF10-ES** | Learner's Permanent Academic Record | School Registrar / Admin | DepEd Order No. 58, s. 2017 compliant (`academicRecords.html`) |
+| **SNEd** | Special Needs Education Registry | SNEd Coordinator / Admin | Profiling matrix compliant with DepEd Order No. 42, s. 2020 |
+
+[↑ Back to Table of Contents](#table-of-contents)
 
 ---
 
-# SECTION 10: FREQUENTLY ASKED QUESTIONS (FAQ) & TECHNICAL SUPPORT
+<a id="section-10" name="section-10"></a>
+# SECTION 10: SYSTEM TROUBLESHOOTING & FREQUENTLY ASKED QUESTIONS (FAQ)
 
-**Q1: Is VPES-SIMS hosted locally on campus or accessible online?**  
+### FREQUENTLY ASKED QUESTIONS (FAQ)
+
+**Q1: Is the system accessible online?**  
 *Answer:* VPES-SIMS is deployed on a dedicated cloud infrastructure on **Hostinger**, fully accessible online 24/7 via any modern web browser with HTTPS SSL encryption.
 
 **Q2: Can parents create a single joint account for multiple children?**  
@@ -1401,6 +1772,8 @@ The following table summarizes the official DepEd School Forms generated, proces
 * **Address:** Vinzons, Camarines Norte, Region V – Bicol
 * **Technical Inquiries:** Camarines Norte State College (CNSC) – Department of Computer Studies Capstone Research Group
 * **System Administrator:** School Principal / Head Teacher Office – Vinzons Pilot Elementary School
+
+[↑ Back to Table of Contents](#table-of-contents)
 
 ---
 *(End of Official User Manual Booklet – Vinzons Pilot Elementary School SIMS)*
